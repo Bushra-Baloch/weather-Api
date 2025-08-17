@@ -32,9 +32,9 @@ OpenWeather API
 
 | Method | Endpoint                     | Description                    | Auth Required |
 | ------ | ---------------------------- | ------------------------------ | ------------- |
-| POST   | `/api/token/`                | Get JWT access & refresh token | ❌             |
-| POST   | `/api/token/refresh/`        | Refresh JWT access token       | ❌             |
-| GET    | `/api/weather/?city=London`  | Get current weather for a city | ❌             |
+| POST   | `/api/token/`                | Get JWT access & refresh token | ✅              |
+| POST   | `/api/token/refresh/`        | Refresh JWT access token       | ✅              |
+| GET    | `/api/weather/?city=London`  | Get current weather for a city | ✅           |
 | GET    | `/api/forecast/?city=London` | Get 5-day forecast for a city  | ✅             |
 | GET    | `/api/favorites/`            | List user's favorite cities    | ✅             |
 | POST   | `/api/favorites/`            | Add a city to favorites        | ✅             |
