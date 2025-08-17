@@ -34,11 +34,11 @@ OpenWeather API
 | ------ | ---------------------------- | ------------------------------ | ------------- |
 | POST   | `/api/token/`                | Get JWT access & refresh token | ✅              |
 | POST   | `/api/token/refresh/`        | Refresh JWT access token       | ✅              |
-| GET    | `/api/weather/?city=London`  | Get current weather for a city | ✅           |
-| GET    | `/api/forecast/?city=London` | Get 5-day forecast for a city  | ✅             |
-| GET    | `/api/favorites/`            | List user's favorite cities    | ✅             |
-| POST   | `/api/favorites/`            | Add a city to favorites        | ✅             |
-| DELETE | `/api/favorites/<id>/`       | Remove a city from favorites   | ✅             |
+| GET    | `/api/weather/?city=London`  | Get current weather for a city | ✅              |
+| GET    | `/api/forecast/?city=London` | Get 5-day forecast for a city  | ✅              |
+| GET    | `/api/favorites/`            | List user's favorite cities    | ✅              |
+| POST   | `/api/favorites/`            | Add a city to favorites        | ✅              |
+| DELETE | `/api/favorites/<id>/`       | Remove a city from favorites   | ✅              |
 
 ⚙️ Setup Instructions
 1️⃣ Clone Repository
